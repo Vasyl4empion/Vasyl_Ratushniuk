@@ -1,5 +1,8 @@
 # Vasyl_Ratushniuk
-  Code is on C#.
+  SeleniumTest.cs - main code.
+  PageObjects - 2 classes for page objects
+  Login_and_Job Info - 2 classes for getting information about job title,description etc..
+  Extent reports - 4 .html reports of tests.
   /// I am using these nuGet Packages:
   1)Microsoft.NET.Sdk
   2)NUnit
