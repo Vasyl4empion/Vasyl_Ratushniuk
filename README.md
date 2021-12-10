@@ -7,6 +7,8 @@
   4)Selenium.Support
   5)Selenium.WebDriver
   6)Selenium.WebDriver.ChromeDriver(Chrome version 96.0.4664.93 )
+  7)AventStack.ExtentReports;
+  8)AventStack.ExtentReports.Reporter;
   About code:
   /// <instruction>
     There are 4 tests. You have to run them in this oreder:
