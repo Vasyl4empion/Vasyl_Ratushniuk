@@ -32,7 +32,7 @@ namespace SeleniumText
         public void Setup()
         {
             extent = new ExtentReports();
-            var htmlReporter = new ExtentHtmlReporter(@"D:\3-rd course\Extent reports\TestReport.html");
+            var htmlReporter = new ExtentHtmlReporter(@"D:\3-rd course\Extent reports\TestReport.html");//name of file changed according to test
             extent.AttachReporter(htmlReporter);
             driver = new OpenQA.Selenium.Chrome.ChromeDriver();
             driver.Navigate().GoToUrl("https://opensource-demo.orangehrmlive.com/");
