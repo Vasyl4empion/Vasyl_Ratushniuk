@@ -146,6 +146,9 @@ namespace SeleniumText
             var Deleteapplying = driver.FindElement(By.XPath("//*[@id='dialogDeleteBtn']"));
             Deleteapplying.Click();
             Thread.Sleep(2000);//to see if our title is deleted
+            if(Goingtotitle.Enabled){
+            test.Log(Status.Pass, "Title was not deleted ! Test5 Not Passed(.");
+            }
             test.Log(Status.Pass, "Title was deleted ! Test5 Passed.");
         }
     
