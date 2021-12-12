@@ -1,7 +1,7 @@
 # Vasyl_Ratushniuk
   SeleniumTest.cs - main code.
   Testing site https://opensource-demo.orangehrmlive.com/ on adding,editing,deleting job title.
-  PageObjects - 6 classes for page objects
+  PageObjects - 6 classes for page objects. 
   Login_and_Job Info - 2 classes for getting information about job title,description etc..
   TestReport -  report of tests.
   /// I am using these nuGet Packages:
